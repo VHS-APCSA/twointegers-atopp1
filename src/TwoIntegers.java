@@ -29,5 +29,20 @@ public class TwoIntegers
 	public void setNum2(int num2)
 	{
 		this.num2 = num2;
-	}	
+	}
+	public String arithmetic()
+	{
+		int sum = num1 + num2;
+		int dif = num1 - num2;
+		int prod = num1 * num2;
+		double quot = (double)num1 / num2;
+		int mod = num1 % num2;
+		
+		return (num1 + " + " + num2 + " = " + sum + ", " +
+				num1 + " - " + num2 + " = " + dif + ", " +
+				num1 + " * " + num2 + " = " + prod + ", " +
+				num1 + " / " + num2 + " = " + quot + ", " +
+				num1 + " % " + num2 + " = " + mod);
+	}
+	
 }
