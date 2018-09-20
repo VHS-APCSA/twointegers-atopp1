@@ -66,4 +66,15 @@ public class TwoIntegers
 			return false;
 		}	
 	}
+	public boolean isMultiple()
+		{
+		if ((num2 % num1) == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }
